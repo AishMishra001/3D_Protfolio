@@ -4,22 +4,23 @@ import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
+import { SectionWrapper } from '../hoc'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
     <Tilt className='xs:w-[250px] w-[250px]'>
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className='w-full green-pink-gradient shadow-card rounded-[20px] p-[1px]'>
+        className='w-full green-pink-gradient shadow-card rounded-[20px] p-[1px] '>
         <div 
           options={{
             max: 45,
             scale: 1,
             speed: 450
           }} 
-          className='bg-black rounded-[20px] py-5 px-12 min-h-[280px] flex flex-col justify-evenly items-center'>
+          className='bg-[#190328] rounded-[20px] py-5 px-12 min-h-[280px] flex flex-col justify-evenly items-center'>
           <img src={icon} alt={title} className='w-16 h-16 object-contain' />
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          <h3 className='text-white text-[20px] font-bold text-center '>{title}</h3>
         </div>
       </motion.div>
     </Tilt>
@@ -28,7 +29,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <div className='bg-gradient-to-r from-violet-900 to-pink-900 '>
+    <div className='bg-[#10021A]'>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -56,4 +57,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About , "about") 
