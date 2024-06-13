@@ -8,13 +8,10 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   innotech,
   gssoc,
   devs,
@@ -23,6 +20,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  recoil,
+  express,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -81,8 +81,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Recoil",
+    icon: recoil,
   },
   {
     name: "Tailwind CSS",
@@ -105,12 +105,12 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "github",
+    icon: github,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "express",
+    icon: express,
   },
 ];
 
