@@ -15,7 +15,7 @@ const ExperienceCard = ({ experience }) => (
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className="flex items-center justify-center w-[60px] h-[60px] overflow-hidden rounded-full">
-        <img src={experience.icon} alt={experience.company_name} className="w-full h-full object-cover" />
+        <img src={experience.icon} alt={experience.company_name} className="object-cover w-[85%] mr-6 lg:mr-0 mb-6 lg:mb-0 lg:w-full h-[85%] lg:h-full rounded-full" />
       </div>
     }
   >
@@ -35,6 +35,7 @@ const ExperienceCard = ({ experience }) => (
     </div>
   </VerticalTimelineElement>
 );
+
 
 
 const Experience = () => {
