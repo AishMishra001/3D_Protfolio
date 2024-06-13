@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  innotech,
+  gssoc,
+  devs,
+  firepay,
   carrent,
   jobit,
   tripguide,
@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Mern Stack Developer",
     company_name: "100xdev",
-    icon: tesla,
+    icon: devs,
     iconBg: "#E6DEDD",
     date: "Nov 2023 - July 2024",
     points: [
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: "Video Editing and Organizing",
     company_name: "Innotech 2024",
-    icon: starbucks,
+    icon: innotech,
     iconBg: "#383E56",
     date: "Jan 2024 - Feb 2024",
     points: [
@@ -142,7 +142,7 @@ const experiences = [
   {
     title: "Contributor",
     company_name: "GSSOC 2024",
-    icon: shopify,
+    icon: gssoc,
     iconBg: "#383E56",
     date: "May 2024 - Till Now ",
     points: [
@@ -155,7 +155,7 @@ const experiences = [
   {
     title: "FirePay",
     company_name: "Self",
-    icon: meta,
+    icon: firepay,
     iconBg: "#E6DEDD",
     date: "June 2024 - Present",
     points: [
