@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  api,
   reactjs,
   tailwind,
   nodejs,
@@ -16,13 +17,13 @@ import {
   gssoc,
   devs,
   firepay,
-  carrent,
-  jobit,
-  tripguide,
+  FirePay,
   threejs,
   recoil,
   express,
   github,
+  Restfulapi,
+  FoodandWellness,
 } from "../assets";
 
 export const navLinks = [
@@ -112,6 +113,10 @@ const technologies = [
     name: "express",
     icon: express,
   },
+  {
+    name: "api",
+    icon: api,
+  },
 ];
 
 const experiences = [
@@ -196,9 +201,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "FirePay",
+    description: "FirePay is a user-friendly payments app that allows users to sign up securely using Zod-validated credentials stored in MongoDB. After signing up, users are redirected to a dashboard where they receive a random amount of dummy money (0-10,000 rupees). Users can view and share information with others on the platform, with data fetched directly from the database. The app also supports money transfers between users, with balances refreshed after each transaction.",
+      
     tags: [
       {
         name: "react",
@@ -212,51 +217,67 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongoose transaction",
+        color: "bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-yellow-500",
+      },
+      {
+        name: "personal-project",
+        color: "bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-white",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: FirePay,
+    source_code_link: "https://github.com/AishMishra001/paytm",
   },
   {
-    name: "Job IT",
+    name: "Food and Wellness Synergy",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      " a personalized recipe suggestion system powered by Advanced Gemini LLMs and Flask. This innovative system allows users to receive customized recipe recommendations by providing food products through manual input, QR code-style entry, or image upload. Leveraging technologies like HTML, CSS, and Python, the platform offers an intuitive user interface and accurate recipe suggestions. Moving forward, I aim to enhance the system's capabilities with advanced AI models and new technologies, ensuring a continuously enriched culinary experience for users.",
     tags: [
       {
-        name: "react",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "LLM",
         color: "green-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "group-project",
+        color: "bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-yellow-500",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: FoodandWellness,
+    source_code_link: "https://github.com/AishMishra001/Food-and-Wellness-Synergy",
+  },
+  {
+    name: "RestFull API",
+    description:
+      "a beginner-friendly backend project that focuses on the basics of backend development by building a CRUD API with Node.js, Express, and MongoDB—essentially the MERN stack without React. This project covers fundamental concepts and practical skills, including the use of Postman, ThunderClient, and Insomnia for testing. Ideal for newcomers, it provides a solid foundation in backend development and API creation.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "personal-project",
+        color: "bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-500",
+      },
+    ],
+    image: Restfulapi,
+    source_code_link: "https://github.com/AishMishra001/REST_ful-API-",
   },
 ];
 
