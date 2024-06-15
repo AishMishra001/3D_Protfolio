@@ -1,0 +1,31 @@
+/* src/App.css or any CSS file you use */
+
+
+
+
+.contact-section {
+  position: relative;
+  background-image: url('../assets/spacebg.png'); /* Ensure the correct path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; /* Adjust height as needed */
+  opacity: 0.8; /* Adjust opacity as needed */
+}
+
+.contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.7), transparent);
+  z-index: 1;
+}
+
+.contact-content {
+  position: relative;
+  z-index: 2;
+}

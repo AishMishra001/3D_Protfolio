@@ -29,6 +29,7 @@ import firepay from "./company/FirePay.png";
 import FirePay from "./Firepay.png";
 import FoodandWellness from "./FoodandWellness.png" ; 
 import Restfulapi from "../assets/RestfullApi.png"
+import spacebg from "./space.png"
 
 export {
   logo,
@@ -59,5 +60,6 @@ export {
   FirePay,
   FoodandWellness,
   Restfulapi,
-  api
+  api , 
+ spacebg 
 };
