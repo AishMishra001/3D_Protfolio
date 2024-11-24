@@ -112,9 +112,9 @@ const Contact = () => {
          
          {/* gmail  */}
           <div className="flex mt-10">
-             <a href="aish.work008@gmail.com">
+          <a href="mailto:aish.work008@gmail.com?subject=Contact%20me%20.%20&body=Hi%20Aish%20">
              <IoMdMail className="w-8 h-8 sm:w-10 sm:h-10"/>
-             </a>
+            </a>
           </div>
           
         </div>
